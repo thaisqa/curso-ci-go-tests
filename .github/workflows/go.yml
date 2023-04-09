@@ -29,12 +29,6 @@ jobs:
   
     - name: Test
       run: go test -v main_test.go
-
-    - name: Build
-      run: go build -v main.go
-
-    - name: Down
-      run: docker-compose down
       
   build:
     runs-on: ubuntu-latest
